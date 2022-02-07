@@ -1,0 +1,45 @@
+.support-block{
+    width: 100%;
+    height: auto;
+    background-color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+.support-block img{
+    width: 44%;
+    height: 550px;
+    margin: 0 15px;
+}
+.support-block .support-text{
+    width: 44%;
+    height: 550px;
+    margin: 0 15px;
+    background-color: #35B8BE;
+    padding-left: 5%;
+    padding-top: 14%;
+  
+}
+
+.support-text h1{
+    color: rgb(245, 248, 248);
+    font-weight: 400;
+    font-size: 50px;
+}
+.support-text button{
+    width: 147px;
+    height: 50px;
+    border-radius: 6px;
+     margin-top: 1.6rem;
+    border: none;
+    font-size: 15px;
+    outline: none;
+     background-color: white;
+    color: #35B8BE;  
+}
+.support-text h1 span{
+    color: #1B9097;
+   
+}

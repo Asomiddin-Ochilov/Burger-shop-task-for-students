@@ -1,0 +1,521 @@
+
+/*   min-992px = max-1200px */
+
+@media (min-width:992px) and (max-width:1200px) {
+    
+  .header-text{
+      width: 55%;
+  }  
+  .head{
+      width: 45%;
+  }
+  
+  .card-block{
+      justify-content: center;
+  }
+  .card-block span{
+      width: 40px;
+      margin: 10px;
+  }
+
+  .card-block .card{
+     width: 23%;
+     margin: 0;
+  }
+  .card-groups .card-item{
+      width: 43%;
+      height: 170px;
+      padding: 10px;
+  }
+  .contact-block img{
+      width: 40%;
+  }
+  .support-text{
+      padding-top: 20% !important;
+      padding-left: 2.5% !important; 
+  }
+  .support-text h1{
+      font-size: 45px;
+  }
+}
+
+/*  min-769px = max-992px  */
+
+@media (min-width:769px) and (max-width:992px) {
+   .orders{
+       position: relative;
+       margin:15px auto !important;
+       width: 45%;
+       top: 0;
+       right: 0;
+   }
+   .table{
+       width: 75%;
+       border: 1px solid rgb(221, 219, 219);
+       border-radius: 10px;
+       margin: 10px auto;
+   }
+    .navbar-box .navbar{
+        width: 90%;
+        justify-content: space-between;
+    } 
+    .navbar-box .logo{
+        width: 10%;
+    }
+    .navbar-box .navbar .link{
+        width: 60%;
+    }
+    .header{
+        width: 90%;
+    }
+  .header-text{
+      width: 55%;
+  } 
+  .header-text h1{
+      font-size: 50px;
+  } 
+  .head{
+      width: 48%;
+  }
+  .header-2-text{
+      width: 50%;
+  }
+  .header-2-text h1{
+      font-size: 50px;
+      width: 100%;
+  }
+  .card-block{
+      justify-content: center;
+  }
+  .card-block span{
+      width: 30px;
+      margin: 10px;
+  }
+
+  .card-block .card{
+     width: 26%;
+     margin: 0;
+     height: 340px;
+  }
+  .card-groups .card-item{
+      width: 60%;
+      height: 165px;
+      padding: 10px;
+  }
+  .contact-text h1{
+      font-size: 37px !important;
+  }
+  .contact-block img{
+      width: 48%;
+  }
+.faq-block{
+    justify-content: center;
+}
+  .faq-block img{
+      width: 43%;   
+      margin: 0; 
+  }
+  .faq-text{
+      margin: 5%;
+  }
+ 
+  .support-block img{
+    height: 450px !important; 
+  }
+  .support-text{
+     height: 450px !important;
+      padding-top: 11% !important;
+      padding-left: 2.5% !important; 
+  }
+  .support-text h1{
+      font-size: 45px;
+  }
+}
+
+/*  min-577px = max-768px  */
+
+@media (min-width:577px) and (max-width:768px) {
+   
+    .orders{
+        position: relative;
+        margin:15px auto !important;
+        width: 60%;
+        top: 0;
+        right: 0;
+    }
+    .table{
+        width: 90%;
+        border: 1px solid rgb(221, 219, 219);
+        border-radius: 10px;
+        margin: 10% auto  auto !important;
+    }
+
+    .navbar-box .navbar{
+        width: 90%;
+        justify-content: space-between;
+    } 
+    .navbar-box .logo{
+        width: 10%;
+    }
+    .navbar-box .navbar .link{
+        width: 70%;
+    }
+    .header-block{
+        height: auto;
+        padding-top: 5%;
+    }
+    .header{
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+  .header-text{
+      width: 70%;
+      margin-bottom: 3%;
+  } 
+  .header-text h1{
+      font-size: 50px;
+  } 
+  .head{
+      width: 70%;
+  }
+  .header-2-block{
+      height: auto !important;
+      padding-bottom: 10%;
+  }
+  .header-2{
+      padding-top: 6%;
+      width: 90%;
+      flex-wrap: wrap;
+      height: auto;
+      justify-content: center;
+  }
+  .header-2-text{
+      width: 70%;
+     margin-bottom: 4%;
+  }
+  .header-2-text h1{
+      font-size: 50px;
+      width: 100%;
+  }
+  .card-block{
+      justify-content: center;
+      flex-wrap: wrap;
+      height: auto !important;
+      padding-top: 10%;
+      
+  }
+  .card-group{
+    height: auto !important;
+    
+  }
+  .card-block span{
+      width: 30px;
+      margin: 10px;
+      display: none;
+  }
+
+  .card-block .card{
+     width: 40%;
+     margin: 10px 10px;
+     height: 340px;
+  }
+  .card-menu .btn-1{
+      width: 120px;
+  }
+  .card-menu .pp{
+      width: 60% !important;
+  }
+  .card-groups .card-item{
+      width: 70%;
+      height: 160px;
+      padding: 10px;
+  }
+  .contact-text h1{
+      font-size: 37px !important;
+  }
+  .contact-block{
+      flex-wrap: wrap;
+      padding-top: 5%;
+      justify-content: center;
+  }
+  .contact-text{
+      width: 70%;
+  }
+  .contact-block img{
+      width: 70%;
+      margin-top: 10%;
+      
+  }
+.faq-block{
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding-top: 4%;
+}
+  .faq-block img{
+      width: 66%;   
+      margin: 0; 
+  }
+  .faq-text{
+      width: 65%;
+      margin: 5%;
+  }
+ .support-block{
+     flex-wrap: wrap;
+ }
+  .support-block img{
+      width: 65%;
+    height: 400px !important; 
+  }
+  .support-text{
+      margin-top: 4% !important;
+      width: 65% !important;
+     height: 400px !important;
+      padding-top: 11% !important;
+      padding-left: 2.5% !important; 
+  }
+  .support-text h1{
+      font-size: 45px;
+  }
+  footer .footer-item-1{
+     width: 40%; 
+  }
+   footer .footer-item-2{
+      width: 40%;
+  }
+}
+
+/*  min-screen = max-577px  */
+
+@media screen and (max-width:577px) {
+    .modalVisable{
+        width: 95%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    .orders{
+        position: relative;
+        margin:15px auto !important;
+        width: 90%;
+        top: 0;
+        right: 0;
+    }
+    .table{
+        width: 90%;
+        border: 1px solid rgb(221, 219, 219);
+        border-radius: 10px;
+        margin: 17% auto  auto !important;
+    }
+
+    .navbar-box .navbar{
+        width: 90%;
+        justify-content: space-between;
+    } 
+    .navbar-box .logo{
+        width: 10%;
+    }
+
+    .navbar-box .navbar .link{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        top: 80px;
+        left: 100%;
+        flex-wrap: wrap;
+        width: 98%;
+        background-color: rgba(255, 255, 255, 0.931);
+        transition:left 0.5s;
+    }
+  .link-active{
+      left: 3px !important;
+  } 
+ 
+    .navbar-box .navbar .link .cart{
+        display: none !important;
+    }
+    .navbar-box .navbar .link span{
+        display: none !important;
+    }
+    .navbar-box .navbar .link a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 1rem auto;
+        font-size: 20px;
+    }
+    .navbar-box .toggle-menu{
+        width: auto;
+        font-size: 30px;
+        display: block;
+        color: rgb(53,184,190);
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    .header-block{
+        height: auto;
+        padding-top: 5%;
+    }
+    .header{
+        width: 97%;
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+  .header-text{
+      width: 90%;
+      margin-bottom: 3%;
+  } 
+  .header-text span{
+      display: block;
+  }
+  .header-text h1{
+      font-size: 40px;
+  } 
+  .head{
+      width: 90%;
+      height: 350px;
+  }
+  .header-2-block{
+      height: auto !important;
+      padding-bottom: 10%;
+  }
+  .header-2{
+      padding-top: 6%;
+      width: 97%;
+      flex-wrap: wrap;
+      height: auto;
+      justify-content: center;
+  }
+  .header-2-text{
+      width: 90%;
+      height: auto !important;
+      padding: 0;
+     margin-bottom: 4%;
+  }
+  .header-2-text h1{
+      width: 100%;
+      font-size: 50px !important;
+  }
+  .card-block{
+      justify-content: center;
+      flex-wrap: wrap;
+      height: auto !important;
+      padding-top: 10%;
+      
+  }
+  .card-group{
+    height: auto !important;
+    
+  }
+  .card-block span{
+      width: 30px;
+      margin: 10px;
+  }
+
+  .card-block .card{
+     width: 80%;
+     margin: 10px 10px;
+     height: 340px;
+  }
+  .card-menu .btn-1{
+      width: 110px;
+  }
+  .card-menu .pp{
+      width: 80% !important;
+  }
+  .card-groups .card-item{
+      width: 90%;
+      flex-wrap: wrap;
+
+      height: auto;
+      padding: 16px;
+  }
+  .card-item .price{
+      width: 100px;
+      border-radius: 5px;
+      background-color: white;
+      border: 1px solid rgba(128, 128, 128, 0.315);
+  }
+  .card-item img{
+      width: 80%;
+  }
+  .card-item .item-text{
+      width: 100%;
+      margin-top: 4%;
+  }
+  .contact-text h1{
+      font-size: 37px !important;
+  }
+  .contact-block{
+      flex-wrap: wrap;
+     padding: 0;
+
+      justify-content: center;
+  }
+  .contact-text{
+      width: 90%;
+      padding: 0;
+      margin:0;
+  }
+  .contact-block img{
+      width: 90%;
+      padding: 0;
+      text-align: center;
+      margin:10% auto;
+      
+  }
+.faq-block{
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding-top: 4%;
+}
+  .faq-block img{
+      width: 90%;   
+      margin: 0; 
+  }
+  .faq-text{
+      width: 90%;
+      margin:10% auto;
+  }
+ .support-block{
+     flex-wrap: wrap;
+ }
+  .support-block img{
+      width: 90%;
+    height: 400px !important; 
+  }
+  .support-text{
+      margin-top: 4% !important;
+      width: 90% !important;
+     height: 400px !important;
+      padding-top: 11% !important;
+      padding-left: 2.5% !important; 
+  }
+  .support-text h1{
+      font-size: 45px;
+  }
+  footer .footer-item-1{
+     width: 90%;
+     padding-left: 10%; 
+     margin-top: 5%;
+  }
+   footer .footer-item-2{
+      width: 90%;
+      height: auto;
+      padding-left: 10%; 
+  }
+  footer .footer-item-3{
+      margin-top: 5%;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: auto;
+      padding-bottom: 4%;
+  }
+}
